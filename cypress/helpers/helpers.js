@@ -37,5 +37,4 @@ export function I_VerifyCartTotal()
         let total = parseFloat($actualPrice.text().toString().replace('Total: ', ''));
         cy.task('getTotal').should('equal', total);
     })
-
 }
