@@ -5,6 +5,7 @@ This repository contains a Test Automation framework:
 - uses json files to store test data
 - uses json files to store page locators
 - uses mochawesome-reporter & JUnit reporter for report generation
+- supports both css selectors and xpath locators
 
 The code base is developed to cover the major flows of the Jupiter web application.
 
