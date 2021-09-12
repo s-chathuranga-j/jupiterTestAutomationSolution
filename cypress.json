@@ -1,0 +1,13 @@
+{
+  "chromeWebSecurity": false,
+  "baseUrl": "http://jupiter.cloud.planittesting.com",
+  "defaultCommandTimeout": 60000,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "charts": true,
+    "reportPageTitle": "Jupiter Test Suite",
+    "embeddedScreenshots": true,
+    "inlineAssets": true
+  }
+}

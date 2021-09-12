@@ -1,0 +1,12 @@
+{
+  "SubmitBtn": ".form-actions a",
+  "ErrorAlertMessage": ".alert-error",
+  "Forename": "#forename",
+  "ForenameValidationError": "#forename-err",
+  "Email": "#email",
+  "EmailValidationError": "#email-err",
+  "Message": "#message",
+  "MessageValidationError": "#message-err",
+  "SendingFeedBackPopUp": "//h1[text()='Sending Feedback']",
+  "FeedbackSuccessAlert": ".alert-success"
+}

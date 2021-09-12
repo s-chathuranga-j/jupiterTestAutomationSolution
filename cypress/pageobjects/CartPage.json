@@ -1,0 +1,6 @@
+{
+  "ProductPrice": "//td[contains(text(),\"ProductName\")]/../td[contains(text(), \"ProductUnitPrice\")]",
+  "ProductQuantity": "//td[contains(text(),\"ProductName\")]/../td/input",
+  "ProductSubtotal": "//td[contains(text(),\"ProductName\")]/../td[contains(text(), \"ProductSubtotal\")]",
+  "CartTotalPrice": ".total"
+}

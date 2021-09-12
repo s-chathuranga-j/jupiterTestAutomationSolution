@@ -1,0 +1,63 @@
+{
+  "TestCaseOne":
+  {
+    "UserDetails":
+    {
+      "Forename": "Chathuranga",
+      "Email": "schathurangaj@outlook.com",
+      "Message": "Jupiter test message"
+    }
+  },
+
+  "TestCaseTwo" :
+  {
+    "UserDetails":
+    {
+      "Forename": "Chathuranga",
+      "Email": "schathurangaj@outlook.com",
+      "Message": "Jupiter test message"
+    }
+  },
+
+  "TestCaseThree":
+  {
+    "ProductDetails":
+    {
+      "ProductOne":
+      {
+        "Name": "Funny Cow",
+        "Count": 2
+      },
+      "ProductTwo":
+      {
+        "Name": "Fluffy Bunny",
+        "Count": 1
+      }
+    }
+  },
+
+  "TestCaseFour":
+  {
+    "ProductDetails":
+    {
+      "ProductOne":
+      {
+        "Name": "Stuffed Frog",
+        "Count": 2,
+        "Price": 10.99
+      },
+      "ProductTwo":
+      {
+        "Name": "Fluffy Bunny",
+        "Count": 5,
+        "Price": 9.99
+      },
+      "ProductThree":
+      {
+        "Name": "Valentine Bear",
+        "Count": 3,
+        "Price": 14.99
+      }
+    }
+  }
+}

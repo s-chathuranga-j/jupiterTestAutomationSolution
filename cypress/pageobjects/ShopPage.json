@@ -1,0 +1,5 @@
+{
+  "BuyButton": "//h4[text()='ProductName']/../p/a[contains(@ng-click, 'add(item)')]",
+  "CartLink": "#nav-cart a",
+  "ProductPrice": "//h4[text()='ProductName']/../p/span[contains(@class, 'product-price')]"
+}
