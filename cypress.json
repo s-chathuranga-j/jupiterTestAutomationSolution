@@ -2,12 +2,19 @@
   "chromeWebSecurity": false,
   "baseUrl": "http://jupiter.cloud.planittesting.com",
   "defaultCommandTimeout": 60000,
-  "reporter": "cypress-mochawesome-reporter",
+
+  "reporter": "cypress-multi-reporters",
   "reporterOptions": {
-    "reportDir": "cypress/reports",
-    "charts": true,
-    "reportPageTitle": "Jupiter Test Suite",
-    "embeddedScreenshots": true,
-    "inlineAssets": true
+    "reporterEnabled": "cypress-mochawesome-reporter, mocha-junit-reporter",
+    "cypressMochawesomeReporterReporterOptions": {
+      "reportDir": "cypress/reports",
+      "charts": true,
+      "reportPageTitle": "Jupiter Test Suite",
+      "embeddedScreenshots": true,
+      "inlineAssets": true
+    },
+    "mochaJunitReporterReporterOptions": {
+      "mochaFile": "cypress/reports/junit/results-[hash].xml"
+    }
   }
 }

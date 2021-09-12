@@ -82,4 +82,3 @@ export function WaitUntilElementNotExist(locator)
     else
         cy.get(locator, {timeout: 120000}).should('not.exist');
 }
-

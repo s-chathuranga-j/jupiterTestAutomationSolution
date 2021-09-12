@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="63.2770" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-09-12T14:19:44" tests="0" file="cypress/integration/planit/testsuite.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Jupiter Test Suite" timestamp="2021-09-12T14:19:44" tests="8" time="63.2770" failures="0">
+    <testcase name="Jupiter Test Suite test scenario one" time="10.9150" classname="test scenario one">
+    </testcase>
+    <testcase name="Jupiter Test Suite test scenario two" time="9.5570" classname="test scenario two">
+    </testcase>
+    <testcase name="Jupiter Test Suite test scenario two" time="7.1010" classname="test scenario two">
+    </testcase>
+    <testcase name="Jupiter Test Suite test scenario two" time="4.3640" classname="test scenario two">
+    </testcase>
+    <testcase name="Jupiter Test Suite test scenario two" time="8.4170" classname="test scenario two">
+    </testcase>
+    <testcase name="Jupiter Test Suite test scenario two" time="15.3170" classname="test scenario two">
+    </testcase>
+    <testcase name="Jupiter Test Suite test scenario three" time="4.5690" classname="test scenario three">
+    </testcase>
+    <testcase name="Jupiter Test Suite test scenario four" time="3.0370" classname="test scenario four">
+    </testcase>
+  </testsuite>
+</testsuites>
