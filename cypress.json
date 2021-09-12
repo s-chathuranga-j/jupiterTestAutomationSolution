@@ -2,7 +2,7 @@
   "chromeWebSecurity": false,
   "baseUrl": "http://jupiter.cloud.planittesting.com",
   "defaultCommandTimeout": 60000,
-
+  "video": true,
   "reporter": "cypress-multi-reporters",
   "reporterOptions": {
     "reporterEnabled": "cypress-mochawesome-reporter, mocha-junit-reporter",
